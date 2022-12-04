@@ -79,7 +79,9 @@ public class Main {
 
         System.out.println("\n_____________________________________________\n");
 
-
+        
+        // Очищаю файл oldFiles.txt от содержимого (посмотрел в гугле :) );
+        
         String fileName = "C:\\Users\\User\\IdeaProjects\\HomrWorkFiles\\oldFiles.txt";
 
         try (BufferedWriter bf = Files.newBufferedWriter(Path.of(fileName),
